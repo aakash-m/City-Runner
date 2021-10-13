@@ -71,7 +71,7 @@ int main()
   //Texture 2D player - Nebula
   Texture2D nebula = LoadTexture("textures/12_nebula_spritesheet.png");
 
-  const int sizeOfNebulae{3};
+  const int sizeOfNebulae{10};
   AnimData nebulae[sizeOfNebulae]{};
 
   for (int i = 0; i < sizeOfNebulae; i++)
